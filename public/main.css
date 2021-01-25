@@ -1,0 +1,89 @@
+.map { 
+	/*float: left; */
+	/*max-width: 50%; */
+	/*max-height: 95vh; */
+	/*height: 95vh;*/
+}
+
+.label { fill: white; }
+
+.value { fill: white; }
+
+html {
+  height:100%;
+}
+
+body{
+	background:#3e4147;
+  margin:30px;
+	font: 15px "Trebuchet MS";
+	color:#c0c0c0;
+  height: 95%;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+}
+
+
+#input_div{
+    grid-column: 1 / 8;
+}
+
+#graph_div{
+    grid-column: 9 / 19;
+    font-size: calc(3vw + 3vh);
+}
+
+#ingredients{
+  width: 100%;
+  height: 100%;
+  float: center;
+}
+
+#process_btn {
+  grid-column: 8;
+  width: 50px;
+  height: 55px;
+}
+
+.headline, .subline{
+  display: block;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  fill: white;
+  font-family: 'PT Sans',sans-serif;
+  opacity: 0.5;
+}
+
+.headline{
+  font-weight: bold;
+}
+
+.subline{
+  font-size: 50%;
+  font-weight: thin;
+}
+
+.label{
+  font-family: 'PT Sans',sans-serif;
+  opacity: 1;
+  font-size: 30%;
+}
+
+textarea { 
+  font-size: 25px; 
+}
+
+.container {
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

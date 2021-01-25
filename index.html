@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Nutrients App</title>
+  <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link href="./public/main.css" rel="stylesheet">
+  <script type="text/javascript" src="public/nutrients_app.js"></script>
+</head>
+
+<body>
+
+  <div id="input_div">
+    <textarea id="ingredients" name="Ingredients" cols="1" rows="20"></textarea>
+  </div>
+
+  <div class="container">
+    <div class="center">
+      <button onclick="process()" id="process_btn">-></button>
+    </div>
+  </div>
+
+  <div id="graph_div">
+    <svg width="100%" height="100%"></svg>
+  </div>
+
+</body>
